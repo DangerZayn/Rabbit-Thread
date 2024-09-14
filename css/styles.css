@@ -22,6 +22,7 @@
 15. Ajax
 16. GoogleMaps
 17. Services
+18. partners
 -------------------------------------------------------------------*/
 
 
@@ -555,3 +556,26 @@ ul.unordered-list li a::after:hover, ol li a::after:hover, ul.tag-list li a::aft
 .service-content.last { margin-bottom:10px; }
 /* End Services
 --------------------------------------------------------------------------------------------------------*/
+
+/* =18. Partners */
+.partner-section {
+    padding: 60px 0;
+}
+
+.section-title {
+    font-weight: bold;
+}
+
+.section-subtitle {
+
+    margin-bottom: 40px;
+}
+
+.partner-card {
+	background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 8px 15px rgba(177, 177, 177, 0.151);
+	padding: 30px 20px;
+	height: 220px;
+	margin: 10px auto;
+}
